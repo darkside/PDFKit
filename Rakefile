@@ -4,10 +4,10 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "pdfkit"
+    gem.name = "darkside-pdfkit"
     gem.summary = %Q{HTML+CSS -> PDF}
     gem.description = %Q{Uses wkhtmltopdf to create PDFs using HTML}
-    gem.email = "jared@codewordstudios.com"
+    gem.email = "leonardobighetti@gmail.com"
     gem.homepage = "http://github.com/jdpace/PDFKit"
     gem.authors = ["jdpace"]
     gem.add_development_dependency "rspec", "~> 2.0.0.beta.8"
